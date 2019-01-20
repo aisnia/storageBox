@@ -5,6 +5,6 @@
 <mapper namespace="com.dao.UserMapper">
 
         <select id="findByuserId" resultType="com.bean.User">
-            select * from user where id=#{userId}
+            select * from user where userId=#{userId}
         </select>
 </mapper>
